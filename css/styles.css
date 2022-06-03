@@ -363,8 +363,8 @@ margin-bottom: 10px;
         background-color: var(--accent-color);
     }
 
-    .masters-soc-link:hover .masters-soc-icon,
-    .masters-soc-link:focus .masters-soc-icon {
+   .masters-soc-link:hover .masters-soc-icon,
+   .masters-soc-link:focus .masters-soc-icon {
        fill: var(--focus-color);
     }
   
