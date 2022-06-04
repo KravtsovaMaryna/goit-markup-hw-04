@@ -406,6 +406,7 @@ color: var(--title-color);
     /* width: 170px;
     height: 92px; */
     margin-right: 30px;
+   
     
 }
 .client-item:last-child {
@@ -420,8 +421,9 @@ color: var(--title-color);
     justify-content: center;
     background-color: var(--focus-color);
     fill: var(--icons-color);
-    outline: 1px solid var(--icons-color);
+    border: 1px solid var(--icons-color);
     border-radius: 4px;
+    
     /*як додати ховер і фокус на бордер?*/
 }
 
@@ -546,4 +548,8 @@ color: var(--title-color);
 font-size: 16px;
 line-height: 1.87;
 color: var(--main-color);
+}
+
+.link {
+    display: block;
 }
