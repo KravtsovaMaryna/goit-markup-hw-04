@@ -145,12 +145,14 @@ padding-bottom: 24px;
 .header-link{
     color: #000;
     display: flex;
+    align-items: center;
     
 }
 
 .header-soc-icon {
         margin-right: 10px;
         fill: var(--main-color);
+        justify-content: center;
 }
 
 .header-link:hover .header-soc-icon,
