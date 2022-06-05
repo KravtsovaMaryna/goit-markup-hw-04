@@ -165,7 +165,7 @@ padding-bottom: 24px;
     color: var(--accent-color);
 }
 
-.current {
+.header-navigation .current {
     color: var(--accent-color);
 }
 
