@@ -414,7 +414,6 @@ color: var(--title-color);
     width: 170px;
     height: 92px;
     display: flex;
-    padding: 16px 32px;
     align-items: center;
     justify-content: center;
     background-color: var(--focus-color);
@@ -583,11 +582,12 @@ color: var(--main-color);
    }
 
 .footer-item {
-   
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    
+    }
+.footer-item:last-child {
+    margin-right: 0;
 }
 
 .footer-link {
