@@ -161,7 +161,7 @@ padding-bottom: 24px;
     }
 
 .header-link:hover,
- .header-link:focus {
+.header-link:focus {
     color: var(--accent-color);
 }
 
@@ -528,6 +528,14 @@ border-radius: 4px;
     margin: 15px;
     flex-basis: calc(100% / 3 - 30px);
 }
+
+.images-item:hover {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 1px 6px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 8px;
+cursor: pointer;
+}
+
+
 .portfolio-text-wrapper {
     border: 1px solid #eeeeee;
     border-top: none;
